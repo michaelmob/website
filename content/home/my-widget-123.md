@@ -1,5 +1,5 @@
 ---
-widget: index
+widget: widget_page
 widget_id: index
 headless: true
 weight: 10
