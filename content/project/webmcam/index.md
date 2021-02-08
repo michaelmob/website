@@ -8,8 +8,12 @@ external_link: https://github.com/michaelmob/WebMCam
 links:
   - icon_pack: fab
     icon: github
-    url: https://github.com/michaelmob/michaelmob
-    name: GitHub Repository
+    url: https://github.com/michaelmob/webmcam
+    name: Repository
+  - name: Releases
+    icon_pack: far
+    icon: tag
+    url: https://github.com/michaelmob/WebMCam/releases
 image:
   caption: Main Window
   focal_point: Smart
