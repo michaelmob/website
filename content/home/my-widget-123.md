@@ -1,11 +1,11 @@
 ---
 widget: index
-widget_id: my-widget-123
+widget_id: index
 headless: true
 weight: 10
 active: true
 design:
-  columns: "2"
+  columns: ""
   background:
     text_color_light: false
     image_darken: 0
