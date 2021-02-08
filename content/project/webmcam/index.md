@@ -5,9 +5,13 @@ draft: false
 tags:
   - C#
 external_link: https://github.com/michaelmob/WebMCam
-links: []
+links:
+  - icon_pack: fab
+    icon: github
+    url: https://github.com/michaelmob/michaelmob
+    name: GitHub Repository
 image:
-  caption: '"Modern Rune"'
+  caption: Main Window
   focal_point: Smart
   filename: featured.png
   preview_only: false
