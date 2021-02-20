@@ -1,6 +1,6 @@
 ---
 title: Michael Mob
-role: Software and Web Developer
+role: Software Developer
 bio: ""
 interests: []
 social:
