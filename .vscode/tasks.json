@@ -4,7 +4,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Hugo",
+      "label": "Run Wowchemy",
       "type": "shell",
       "command": "docker-compose up"
     },
@@ -12,6 +12,39 @@
       "label": "Update Wowchemy",
       "type": "shell",
       "command": "docker-compose exec hugo './update_wowchemy.sh'"
+    },
+    {
+      "label": "Create new content",
+      "type": "shell",
+      "command": [
+        "docker-compose exec hugo",
+        "hugo new --kind",
+        "${input:contentKind}",
+        "${input:contentKind}/${input:contentName}"
+      ]
+    }
+  ],
+  //
+  // https://code.visualstudio.com/docs/editor/variables-reference#_input-variables
+  "inputs": [
+    {
+      "id": "contentKind",
+      "type": "pickString",
+      "description": "Which kind of content should be created?",
+      "options": [
+        "authors",
+        "event",
+        "home",
+        "post",
+        "project",
+        "publication",
+        "slides",
+      ]
+    },
+    {
+      "id": "contentName",
+      "type": "promptString",
+      "description": "What should this new content be named?"
     }
   ]
 }
