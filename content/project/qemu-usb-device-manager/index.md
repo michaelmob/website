@@ -6,7 +6,7 @@ summary: ""
 authors: []
 tags: []
 categories: []
-date: 2021-02-20T20:25:00Z
+date: 2018-01-14T01:10:00Z
 
 # Optional external URL for project (replaces project detail page).
 external_link: "https://github.com/michaelmob/qemu-usb-device-manager"
@@ -21,11 +21,11 @@ image:
 
 # Custom links (optional).
 #   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-#   icon: twitter
+links:
+  - name: Repository
+    icon_pack: fab
+    icon: github
+    url: https://github.com/michaelmob/qemu-usb-device-manager
 
 url_code: ""
 url_pdf: ""
