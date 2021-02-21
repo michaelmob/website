@@ -1,54 +1,49 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 title: "WebMCam"
-summary: >
-  A simple Windows program to record small WebM screencasts.
-
-  Built atop the abilties of
-  <a href="https://ffmpeg.org" target="_blank">ffmpeg</a>.
+summary: ""
 authors: []
 tags: ["C#"]
 categories: []
 date: 2014-04-27T22:14:00.000Z
 draft: false
+
 tags:
   - C#
+
 external_link: https://github.com/michaelmob/WebMCam
+
 links:
-  - icon_pack: fab
+  - name: Repository
+    icon_pack: fab
     icon: github
-    url: https://github.com/michaelmob/webmcam
-    name: Repository
+    url: https://github.com/michaelmob/WebMCam
   - name: Releases
-    icon_pack: far
+    icon_pack: fa
     icon: tag
     url: https://github.com/michaelmob/WebMCam/releases
+
 image:
-  caption: "Main Window"
+  caption: "WebMCam Main Window"
   focal_point: ""
   preview_only: false
 
-# Custom links (optional).
-#   Uncomment and edit lines below to show custom links.
-# links:
-# - name: Follow
-#   url: https://twitter.com
-#   icon_pack: fab
-
-#   icon: twitter
 url_code: ""
 url_pdf: ""
 url_slides: ""
 url_video: ""
 
-# Slides (optional).
-#   Associate this project with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides = "example-slides"` references `content/slides/example-slides.md`.
-#   Otherwise, set `slides = ""`.
 slides: ""
 ---
 
+<!-- ![GitHub stars](https://img.shields.io/github/stars/michaelmob/webmcam.svg?style=social)
+![GitHub forks](https://img.shields.io/github/forks/michaelmob/webmcam.svg?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/michaelmob/webmcam.svg?style=social) -->
+
+A simple Windows program to record small WebM screencasts.
+
+Built atop the abilties of
+<a href="https://ffmpeg.org" target="_blank">ffmpeg</a>.
 
 Capture frames within the recording region.
 Press _Record_, or use the global hotkey to start recording.
