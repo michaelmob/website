@@ -1,10 +1,11 @@
 version: "3"
 services:
+
   hugo:
     container_name: hugo
     # image: peaceiris/hugo:v0.x.x-mod   # Hugo Modules
     # image: peaceiris/hugo:v0.x.x-full  # Hugo Modules and Node.js
-    image: peaceiris/hugo:v0.80.0-mod
+    image: peaceiris/hugo:v0.83.1-full
     working_dir: /home/hugo
     volumes:
       - .:/home/hugo
