@@ -26,7 +26,6 @@ interests:
   - 3D Modeling
   - 3D Printing
   - Automation
-  - Editor Workflows
 
 education:
   courses:
@@ -69,4 +68,5 @@ highlight_name: false
 # user_groups:
 #   - Group 1
 #   - Group 2
+
 ---
