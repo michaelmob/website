@@ -5,8 +5,9 @@ services:
     container_name: hugo
     # image: peaceiris/hugo:v0.x.x-mod   # Hugo Modules
     # image: peaceiris/hugo:v0.x.x-full  # Hugo Modules and Node.js
-    image: peaceiris/hugo:v0.83.1-full
+    image: peaceiris/hugo:latest-full
     working_dir: /home/hugo
+    user: "1003:1003"
     volumes:
       - .:/home/hugo
     ports:
@@ -16,13 +17,13 @@ services:
       - --bind=0.0.0.0
       - --buildDrafts
 
-  netlify-cms-proxy-server:
-    container_name: netlify-cms-proxy-server
-    image: node:15.8.0-alpine3.12
-    environment:
-      - PORT=8081
-    ports:
-      - 8081:8081
-    command:
-      - npx
-      - netlify-cms-proxy-server
+  # netlify-cms-proxy-server:
+  #   container_name: netlify-cms-proxy-server
+  #   image: node:15.8.0-alpine3.12
+  #   environment:
+  #     - PORT=8081
+  #   ports:
+  #     - 8081:8081
+  #   command:
+  #     - npx
+  #     - netlify-cms-proxy-server

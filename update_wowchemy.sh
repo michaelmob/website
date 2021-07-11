@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# https://github.com/gohugoio/hugo/releases
+
 # Wowchemy Updater
 # Helps update Hugo modules and the compatible Hugo version for Netlify.
 # https://wowchemy.com/docs/update/
