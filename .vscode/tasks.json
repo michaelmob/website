@@ -6,7 +6,8 @@
     {
       "label": "Run Wowchemy",
       "type": "shell",
-      "command": "docker-compose up"
+      "command": "docker-compose up",
+      "problemMatcher": []
     },
     {
       "label": "Update Wowchemy",
@@ -14,14 +15,15 @@
       "command": "docker-compose exec hugo './update_wowchemy.sh'"
     },
     {
-      "label": "Create new content",
+      "label": "Create New Content",
       "type": "shell",
       "command": [
         "docker-compose exec hugo",
         "hugo new --kind",
         "${input:contentKind}",
         "${input:contentKind}/${input:contentName}"
-      ]
+      ],
+      "problemMatcher": []
     }
   ],
   //
