@@ -14,7 +14,7 @@ role: "Software Developer"
 
 # Organizations/Affiliations
 organizations:
-  - name: PrintCub3d
+  - name: Printcubed
     url: https://printcub3d.com
 
 # Short bio (displayed in user profile at end of posts)
