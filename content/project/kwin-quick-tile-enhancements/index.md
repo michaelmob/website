@@ -26,6 +26,9 @@ links:
     icon_pack: fab
     icon: github
     url: https://github.com/michaelmob/kwin-quick-tile-enhancements
+  - name: KDE Store
+    
+    url: https://store.kde.org/p/1309653
 
 url_code: ""
 url_pdf: ""
