@@ -1,8 +1,9 @@
----
+<!-- ---
 widget: contact
 widget_id: contact
 headless: true
 weight: 130
+draft: true
 title: Contact me
 subtitle: null
 content:
@@ -15,4 +16,4 @@ content:
       captcha: false
 design:
   columns: "2"
----
+--- -->

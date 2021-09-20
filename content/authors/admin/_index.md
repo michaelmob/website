@@ -10,12 +10,12 @@ title: "Michael Mob"
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: "Software Developer"
+role:
 
 # Organizations/Affiliations
 organizations:
-  - name: Printcubed
-    url: https://printcub3d.com
+  # - name: Printcubed
+  #   url: https://printcub3d.com
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -23,7 +23,7 @@ bio:
 # List each interest with a dash
 interests:
   - Programming
-  - 3D Modeling
+#  - 3D Modeling
   - 3D Printing
   - Automation
 
