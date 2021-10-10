@@ -4,27 +4,26 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Wowchemy",
+      "label": "Run Draft Server",
       "type": "shell",
-      "command": "docker-compose up",
+      "command": "hugo server -p 8080 -D",
       "problemMatcher": []
-    },
-    {
-      "label": "Update Wowchemy",
-      "type": "shell",
-      "command": "docker-compose exec hugo './update_wowchemy.sh'"
     },
     {
       "label": "Create New Content",
       "type": "shell",
       "command": [
-        "docker-compose exec hugo",
         "hugo new --kind",
         "${input:contentKind}",
         "${input:contentKind}/${input:contentName}"
       ],
       "problemMatcher": []
-    }
+    },
+    {
+      "label": "Update Wowchemy",
+      "type": "shell",
+      "command": "./update_wowchemy.sh"
+    },
   ],
   //
   // https://code.visualstudio.com/docs/editor/variables-reference#_input-variables
