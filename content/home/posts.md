@@ -7,7 +7,7 @@ widget: portfolio # https://wowchemy.com/docs/getting-started/page-builder/#port
 headless: true
 
 # Order that this section appears on the page.
-weight: 65
+weight: 30
 
 title: "Posts"
 subtitle: ""
