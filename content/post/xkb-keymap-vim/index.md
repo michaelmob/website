@@ -15,6 +15,8 @@ Nestled between the num-pad and the alpha-numeric section of the keyboard lies
 some special keys that are sometimes referred to as "cursor control keys".  They
 serve the purpose of controlling the **view** or **cursor**.
 
+![Keyboard with labeled sections](keyboard.jpg)
+
 <!-- <video src="example-of-view.webm" alt="Visual example of view definition" autoplay></video> -->
 
 The **view** contains all of the content and the **cursor**. Scrolling is an
@@ -188,7 +190,7 @@ patch --dry-run /usr/share/X11/xkb/rules/base.lst < ~/Downloads/xkb-lst.patch
 # And that's it!
 We can now set our Input Source.
 
-## In GNOME
+## Set Input Source in GNOME
 
 1. Open up GNOME Settings and head to the **Keyboard** section. Click the
 **`+`** icon.
