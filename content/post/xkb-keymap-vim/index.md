@@ -1,5 +1,5 @@
 ---
-title: System-wide Vim/Emacs Movement Keys
+title: System-wide Vim-like Movement Keys
 authors:
   - admin
 tags:
@@ -8,8 +8,6 @@ date: '2020-08-29'
 lastmod: '2020-08-29'
 draft: false
 ---
-
-\* *This article is still a work in-progress.*
 
 # A little bit of theory
 
