@@ -9,7 +9,7 @@ lastmod: '2020-08-29'
 draft: false
 ---
 
-# A little bit of theory
+# Prologue
 
 Nestled between the num-pad and the alpha-numeric section of the keyboard lies
 some special keys that are sometimes referred to as "cursor control keys".  They
