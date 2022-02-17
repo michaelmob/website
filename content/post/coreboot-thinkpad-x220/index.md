@@ -13,7 +13,7 @@ draft: false
 
 This repository is a supplement for [my x220 coreboot flash guide on YouTube](https://youtu.be/kJRgBlXRy5I).
 
-While highly unlikely, it is possible to brick your x220 by trying to flash
+While highly unlikely, it is possible to brick your x220 by attempting to flash
 coreboot. I take no responsibility if that were to occur so do this at your own risk.
 
 *You can always re-flash your old BIOS. (Keep backups!)*
