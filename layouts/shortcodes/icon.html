@@ -1,0 +1,6 @@
+<span>
+  {{ $file := .Get 1 | default (printf "%s.svg" (.Get 0 | lower)) }}
+  {{ $src := printf "icons/%s" $file | urlize }}
+
+  <img src="{{ $src }}" /> {{ .Get 0 }}
+</span>
