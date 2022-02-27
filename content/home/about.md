@@ -1,5 +1,5 @@
 ---
-title: About
+title: 
 widget: about
 widget_id: about
 author: admin
