@@ -1,5 +1,7 @@
 ---
 # docs: https://wowchemy.com/docs/widget/accomplishments/
+# edit partial: ../../layouts/partials/widgets/accomplishments.html
+
 widget: accomplishments
 headless: true  # This file represents a page section.
 weight: 50
@@ -19,7 +21,8 @@ item:
   - title: Provost Undergraduate Summer Research Fellowship
     organization: NJIT
     organization_url: https://centers.njit.edu/uri/programs/provost-fellowship.php
-    date_start: '2019-01-01'
+    date_start: 2019-01-01
+    extra: $3,000 Award
     description: >-
       Project:
       <a target="_blank" href="/provost-2019/Encouraging%20the%20Use%20of%20Built-in%20Language%20Features%20for%20Learning%20Control%20Flow.pdf">
