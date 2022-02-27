@@ -1,4 +1,6 @@
 ---
+# Hugo Partial: https://github.com/wowchemy/wowchemy-hugo-themes/blob/753da251dd3cb530e518edb46242de2e67d5d682/wowchemy/layouts/partials/widgets/about.html
+
 # Display name
 title: "Michael Mob"
 
@@ -23,14 +25,14 @@ bio:
 # List each interest with a dash
 interests:
   - Programming
-#  - 3D Modeling
-  - 3D Printing
+  - 3D Modeling and Printing
   - Automation
 
 education:
   courses:
-    - course: BSc in Information Technology
+    - course: B.Sc in Information Technology
       institution: New Jersey Institute of Technology
+      gpa: 3.875
       year: 2020
 
 # Social/Academic Networking
@@ -74,15 +76,44 @@ highlight_name: true
 
 ---
 
-<style>
-.custom-thingiverse {
-  display: block;
-  width: 2rem;
-  height: 2rem;
-  content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' width='1024px' height='1024px' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg%3E%3Cpath fill='%231565c0' d='M 480.5,-0.5 C 501.167,-0.5 521.833,-0.5 542.5,-0.5C 719.126,15.018 854.959,97.018 950,245.5C 993.135,318.068 1017.64,396.402 1023.5,480.5C 1023.5,501.167 1023.5,521.833 1023.5,542.5C 1007.98,719.126 925.982,854.959 777.5,950C 704.932,993.135 626.598,1017.64 542.5,1023.5C 521.833,1023.5 501.167,1023.5 480.5,1023.5C 303.874,1007.98 168.041,925.982 73,777.5C 29.865,704.932 5.36499,626.598 -0.5,542.5C -0.5,521.833 -0.5,501.167 -0.5,480.5C 15.018,303.874 97.018,168.041 245.5,73C 318.068,29.865 396.402,5.36499 480.5,-0.5 Z M 199.5,263.5 C 406.167,263.5 612.833,263.5 819.5,263.5C 819.5,303.5 819.5,343.5 819.5,383.5C 739.5,383.5 659.5,383.5 579.5,383.5C 579.5,543.5 579.5,703.5 579.5,863.5C 532.833,863.5 486.167,863.5 439.5,863.5C 439.5,703.5 439.5,543.5 439.5,383.5C 359.5,383.5 279.5,383.5 199.5,383.5C 199.5,343.5 199.5,303.5 199.5,263.5 Z'/%3E%3C/g%3E%3C/svg%3E%0A");
-}
+## About Me
+* I'm a 👨‍💻 programmer, 🛠️ maker, and 🔧 tinkerer.
+* I started learning how to code with custom Java {{< icon "RuneScape" "rs.png" >}} private servers
+  back in 2006 at 11 years old.
+* Since 2013, I have primarily been using {{< icon "GNU/Linux" "linux.png" >}}
+  as my main operating system. My current favorite Linux distribution is 
+  [{{< icon "Pop!_OS" "pop-os.png" >}}](https://pop.system76.com/).
 
-.dark .custom-thingiverse {
-  content: url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8'%3F%3E%3C!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'%3E%3Csvg xmlns='http://www.w3.org/2000/svg' version='1.1' width='1024px' height='1024px' style='shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Cg%3E%3Cpath fill='%23bbdefb' d='M 480.5,-0.5 C 501.167,-0.5 521.833,-0.5 542.5,-0.5C 719.126,15.018 854.959,97.018 950,245.5C 993.135,318.068 1017.64,396.402 1023.5,480.5C 1023.5,501.167 1023.5,521.833 1023.5,542.5C 1007.98,719.126 925.982,854.959 777.5,950C 704.932,993.135 626.598,1017.64 542.5,1023.5C 521.833,1023.5 501.167,1023.5 480.5,1023.5C 303.874,1007.98 168.041,925.982 73,777.5C 29.865,704.932 5.36499,626.598 -0.5,542.5C -0.5,521.833 -0.5,501.167 -0.5,480.5C 15.018,303.874 97.018,168.041 245.5,73C 318.068,29.865 396.402,5.36499 480.5,-0.5 Z M 199.5,263.5 C 406.167,263.5 612.833,263.5 819.5,263.5C 819.5,303.5 819.5,343.5 819.5,383.5C 739.5,383.5 659.5,383.5 579.5,383.5C 579.5,543.5 579.5,703.5 579.5,863.5C 532.833,863.5 486.167,863.5 439.5,863.5C 439.5,703.5 439.5,543.5 439.5,383.5C 359.5,383.5 279.5,383.5 199.5,383.5C 199.5,343.5 199.5,303.5 199.5,263.5 Z'/%3E%3C/g%3E%3C/svg%3E%0A");
-}
-</style>
+#### Skills
+* Proficient with
+  {{< icon "Python" >}},
+  {{< icon "JavaScript" >}},
+  {{< icon "Bash" >}},
+  {{< icon "PHP" >}},
+  {{< icon "C#" "csharp.svg" >}},
+  {{< icon "Java" >}},
+  among other scripting and programming languages.
+
+* Experience with
+  {{< icon "Django" >}},
+  {{< icon "Laravel" >}},
+  {{< icon "React" >}},
+  {{< icon "Vue" >}},
+  {{< icon "Svelte" >}},
+  and a variety of other frameworks.
+
+* Some software that I am versed in:
+  * {{< icon "MySQL" >}} + other common relational databases, and NoSQL
+    databases such as {{< icon "MongoDB" >}}.
+  * {{< icon "Shopify" >}}, {{< icon "WooCommerce" >}}, and {{< icon "WordPress" >}} content
+    management systems.
+  * {{< icon "Google Docs" >}} and {{< icon "Microsoft Office" >}} suite software.
+  * {{< icon "FreeCAD" "freecad.ico" >}} and
+    {{< icon "OnShape" "onshape.png" >}} parametric 3D modeling tools.
+
+#### More
+
+Check out my code projects on my
+[<i class="fab fa-github"></i> GitHub profile](https://github.com/michaelmob)
+and my 3D model designs on my
+[<i class="custom custom-thingiverse small-icon"></i> Thingiverse profile](https://www.thingiverse.com/michaelmob/designs).
