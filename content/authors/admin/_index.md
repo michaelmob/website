@@ -107,9 +107,9 @@ highlight_name: true
     databases such as {{< icon "MongoDB" >}}.
   * {{< icon "Shopify" >}}, {{< icon "WooCommerce" >}}, and {{< icon "WordPress" >}} content
     management systems.
-  * {{< icon "Google Docs" >}} and {{< icon "Microsoft Office" >}} suite software.
   * {{< icon "FreeCAD" "freecad.ico" >}} and
     {{< icon "OnShape" "onshape.png" >}} parametric 3D modeling tools.
+  * {{< icon "Google Docs" >}} and {{< icon "Microsoft Office" >}} suite software.
 
 #### More
 
