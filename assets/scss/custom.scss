@@ -1,7 +1,7 @@
 /**
  * About Me widget.
  */
-.article-style {
+.about-me {
   img {
     display: inline;
     height: 1rem;
@@ -26,6 +26,11 @@
     width: 1rem;
     height: 1rem;
   }
+}
+
+.network-icon .custom-thingiverse {
+  max-width: 1rem;
+  max-height: 1rem;
 }
 
 .custom-thingiverse {

@@ -75,6 +75,7 @@ highlight_name: true
 #   - Group 2
 
 ---
+<div class="about-me">
 
 ## About Me
 * I'm a 👨‍💻 programmer, 🛠️ maker, and 🔧 tinkerer.
@@ -109,7 +110,7 @@ highlight_name: true
     management systems.
   * {{< icon "FreeCAD" "freecad.ico" >}} and
     {{< icon "OnShape" "onshape.png" >}} parametric 3D modeling tools.
-  * {{< icon "Google Docs" >}} and {{< icon "Microsoft Office" >}} suite software.
+  * {{< icon "Google Docs" >}} and the {{< icon "Microsoft Office" >}} suite of software.
 
 #### More
 
@@ -117,3 +118,5 @@ Check out my code projects on my
 [<i class="fab fa-github"></i> GitHub profile](https://github.com/michaelmob)
 and my 3D model designs on my
 [<i class="custom custom-thingiverse small-icon"></i> Thingiverse profile](https://www.thingiverse.com/michaelmob/designs).
+
+</div>
