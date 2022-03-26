@@ -46,9 +46,9 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/michaelmob
-  - icon: thingiverse
-    icon_pack: custom
-    link: https://www.thingiverse.com/michaelmob/designs
+  #- icon: thingiverse
+  #  icon_pack: custom
+  #  link: https://www.thingiverse.com/michaelmob/designs
   # - icon: twitter
   #   icon_pack: fab
   #   link: https://twitter.com/USERNAME
