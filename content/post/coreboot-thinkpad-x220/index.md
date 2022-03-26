@@ -3,13 +3,17 @@ title: Flash Coreboot on a Thinkpad X220
 authors:
   - admin
 date: '2018-11-25'
-lastmod: '2018-11-25'
+lastmod: '2020-03-26'
 draft: false
 ---
 
-**Repository:** https://github.com/michaelmob/x220-coreboot-guide
+# Guide Video
+{{< youtube kJRgBlXRy5I >}}
+
 
 # Flash Coreboot on a Thinkpad X220
+
+**Repository:** https://github.com/michaelmob/x220-coreboot-guide
 
 This repository is a supplement for [my x220 coreboot flash guide on YouTube](https://youtu.be/kJRgBlXRy5I).
 
@@ -68,7 +72,7 @@ git clone https://github.com/corna/me_cleaner ~/me_cleaner
 
 ## Pinout
 
-[View Pinout Image.](pinout.png)
+{{< figure src="pinout.png" title="Chip Pinout Configuration" height="500px" width="500px" >}}
 
 You will need six jumper wires for VCC, MOSI, MISO, CLK, CS, and GND.
 *Note: VCC is 3.3 volts.*
@@ -241,19 +245,23 @@ removing connections.
 * If STILL not successful and you feel like giving up, you can re-flash `flash01.bin`.
 
 
-## Other Helpful Information
-* coreboot's [wiki page](https://www.coreboot.org/Board:lenovo/x220)
-* tripcode!Q/7's [video](https://www.youtube.com/watch?v=ExQKOtZhLBM)
-* Tyler Cipriani's [blog post](https://tylercipriani.com/blog/2016/11/13/coreboot-on-the-thinkpad-x220-with-a-raspberry-pi/)
-
 ## FAQ
 - I'm getting "No EEPROM/flash device found" when trying to read the BIOS rom.
 Make sure that you've enabled SPI and run `ls /dev | grep spi` to confirm that your SPI devices are detected properly. If they do not appear it may have to do with your kernel. Download and flash latest Raspbian Lite and follow the tutorial from the start.
 
-- Make fails as the blobs folder is not empty `Microcode error: 3rdparty/blobs/cpu/intel/model_206ax/microcode.bin does not exist Microcode error: 3rdparty/blobs/cpu/intel/model_306ax/microcode.bin does not exist src/cpu/Makefile.inc:40: error execution recepie for target «build/cpu_microcode_blob.bin» make: ** [build/cpu_microcode_blob.bin] Error 1`
-Clone 3rd party blobs
-```sh
-cd ~/coreboot/3rdparty
-git clone http://review.coreboot.org/blobs.git
-```
-source: https://www.reddit.com/r/coreboot/comments/7y6nqo/missing_microcode/
+- `make` fails as the blobs folder is not empty. Resulting in an error similar to:
+  ```
+  Microcode error: 3rdparty/blobs/cpu/intel/model_206ax/microcode.bin does not exist Microcode error: 3rdparty/blobs/cpu/intel/model_306ax/microcode.bin does not exist src/cpu/Makefile.inc:40: error execution recepie for target «build/cpu_microcode_blob.bin» make: ** [build/cpu_microcode_blob.bin] Error 1
+  ```
+
+  A solution may be to clone 3rd party blobs from coreboot
+  ```sh
+  cd ~/coreboot/3rdparty
+  git clone http://review.coreboot.org/blobs.git
+  # resource: https://www.reddit.com/r/coreboot/comments/7y6nqo/missing_microcode/
+  ```
+
+## Other Helpful Information
+* coreboot's [wiki page](https://www.coreboot.org/Board:lenovo/x220)
+* tripcode!Q/7's [video](https://www.youtube.com/watch?v=ExQKOtZhLBM)
+* Tyler Cipriani's [blog post](https://tylercipriani.com/blog/2016/11/13/coreboot-on-the-thinkpad-x220-with-a-raspberry-pi/)
