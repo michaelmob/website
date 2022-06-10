@@ -1,6 +1,7 @@
 ---
-title: Manage Your Dotfiles
-date: 2018-05-18
+title: 'Manage Your Dotfiles'
+date: '2018-05-18'
+lastmod: '2018-05-18'
 ---
 
 ***NOTICE: This post is over 5 years old. Improved and more battle-tested methods exist.

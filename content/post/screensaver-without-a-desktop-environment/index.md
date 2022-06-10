@@ -1,6 +1,7 @@
 ---
-title: Screensaver and Screenlocker without a Desktop Environment
-date: 2018-07-19
+title: 'Screensaver and Screenlocker without a Desktop Environment'
+date: '2018-07-19'
+lastmod: '2018-07-19'
 category: [ blog, desktop independent ]
 tags: [ screensaver, screenlocker, lockscreen, desktop independent ]
 ---
