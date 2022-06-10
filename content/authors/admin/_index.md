@@ -81,7 +81,7 @@ highlight_name: true
 * I'm a 👨‍💻 programmer, 🛠️ maker, and 🔧 tinkerer.
 * I started learning how to code with custom Java {{< icon "RuneScape" "rs.png" >}} private servers
   back in 2006 at 11 years old.
-* Since 2013, I have primarily been using {{< icon "GNU/Linux" "linux.png" >}}
+* Since 2013, I have primarily used {{< icon "GNU/Linux" "linux.png" >}}
   as my main operating system. My current favorite Linux distribution is 
   [{{< icon "Pop!_OS" "pop-os.png" >}}](https://pop.system76.com/).
 
