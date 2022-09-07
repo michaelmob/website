@@ -32,7 +32,7 @@ education:
   courses:
     - course: B.Sc in Information Technology
       institution: New Jersey Institute of Technology
-      gpa: 3.875
+      gpa: 3.8
       year: 2020
 
 # Social/Academic Networking
