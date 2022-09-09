@@ -103,14 +103,14 @@ highlight_name: true
   {{< icon "Svelte" >}},
   and a variety of other frameworks.
 
-* Some software that I am versed in:
+* Software:
   * {{< icon "MySQL" >}} + other common relational databases, and NoSQL
     databases such as {{< icon "MongoDB" >}}.
   * {{< icon "Shopify" >}}, {{< icon "WooCommerce" >}}, and {{< icon "WordPress" >}} content
     management systems.
   * {{< icon "FreeCAD" "freecad.ico" >}} and
     {{< icon "OnShape" "onshape.png" >}} parametric 3D modeling tools.
-  * {{< icon "Google Docs" >}} and the {{< icon "Microsoft Office" >}} suite of software.
+  * {{< icon "Microsoft Office" >}} and {{< icon "Google Docs" >}}.
 
 #### More
 
